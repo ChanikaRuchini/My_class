@@ -13,11 +13,11 @@ import com.twilio.type.PhoneNumber;
 public class SmsService {
 
 
-    private final String ACCOUNT_SID ="AC637af9ae70b22932a7e2fb5cf1acc5d2";
+    private final String ACCOUNT_SID ="SID";
 
-    private final String AUTH_TOKEN = "2bcc523dcf813c48ae6cb06a0c81375e";
+    private final String AUTH_TOKEN = "Token";
 
-    private final String FROM_NUMBER = "+15674595665";
+    private final String FROM_NUMBER = "pn";
 
     public void send(SmsPojo sms) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
